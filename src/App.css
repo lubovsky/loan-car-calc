@@ -1,0 +1,261 @@
+
+.calc-wrap {
+  width: 960px;
+  margin: 0 auto;
+  border: 2px dotted #ad0502;
+  border-radius: 10px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+
+.calc-title {
+  color: #ad0502;
+  font-size: 32px;
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+.calc-decr {
+  text-align: center;
+  color: #999999;
+  font-size: 18px;
+}
+
+
+.carSelectsWrap {
+  margin-top: 30px;
+  font-size: 0;
+}
+
+.carSelectsWrap .item {
+  display: inline-block;
+  width: 32%;
+  margin-right: 2%;
+} 
+
+.carSelectsWrap .item:last-child {
+  margin-right: 0;
+}
+
+.mers {
+  height: 150px;
+  background-image: url(mercedes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 250px;
+  margin: 10px 0;
+}
+
+.sliderResultWrap {
+  display: flex;
+  align-items: center;
+}
+
+.sliderResultWrap .sliders,
+.sliderResultWrap .result {
+  display: inline-block;
+  width: 50%;
+}
+
+.slider-wrap .slider {
+    width: 100%;
+}
+
+.slider-wrap {
+  margin-top: 30px;
+}
+
+.slider-wrap .label {
+    font-size: 13px;
+    color: #9299a2;
+}
+
+.slider-wrap > .value {
+    font-size: 24px;
+    color: #ad0502;
+    margin: 10px 0 10px 0;
+
+}
+
+.result {
+  text-align: center;
+}
+
+.result .title {
+  font-size: 16px;
+  color: #9299a2;
+}
+
+.result .value {
+  font-size: 30px;
+  color: #ad0502;
+  margin-top: 20px
+}
+
+.result .descr {
+  font-size: 13px;
+  margin-top: 15px;
+  color: #9299a2;
+}
+
+.customerWrap {
+  margin-top: 30px;
+}
+
+.customerWrap .item {
+  display: inline-block;
+  width: 32%;
+  margin-right: 2%;
+}
+
+.customerWrap .item:last-child {
+  margin-right: 0;
+}
+
+.customerWrap .item input {
+  width: 100%;
+  height: 40px;
+  max-width: 100%;
+  line-height: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  outline: 0;
+  padding: 0 40px 0 10px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.customerWrap .item input.error {
+  border-color: #ad0502;
+}
+
+.creditActions {
+  display: flex;
+  margin-top: 20px;
+}
+
+.creditActions > div {
+  width: 50%;
+}
+.rules {
+  position: relative;
+  padding-left: 30px;
+}
+.rules span {
+  font-size: 14px;
+}
+.rules input[type=checkbox] {
+  visibility:hidden;
+  display: none;
+}
+.rules input[type=checkbox] + label {
+  cursor:pointer;
+  position:absolute;
+  width:20px;
+  height:20px;
+  top:4px;
+  border-radius:2px;
+  border:1px solid #2e8ece;
+  left: 0;
+}
+
+.rules.error input[type=checkbox] + label {
+  border-color: #ad0502;
+}
+
+.rules input[type=checkbox] + label:after{
+  content: '';
+  position:absolute;
+}
+
+.rules input[type=checkbox]:checked + label:after {
+  width: 9px;
+  height: 6px;
+  background: transparent;
+  top: 5px;
+  left: 5px;
+  border: 2px solid #2e8ece;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.buttonSubmit {
+  text-align: right;
+}
+
+.buttonSubmit button {
+  color: #bb2b38;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 6px;
+  border: 1px solid #e14949;
+  text-decoration: none;
+  background: #cfcfce;
+  background-image: -ms-linear-gradient(top, #ffffff 0%, #cfcfce 100%);
+  background: -moz-linear-gradient(top,#ffffff,#cfcfce);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cfcfce));
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr=#ffffff,endColorstr=#cfcfce,GradientType=0);
+  background: linear-gradient(top,#ffffff,#cfcfce);
+  zoom: 1;
+  cursor: pointer;
+}
+.buttonSubmit button:disabled {
+  border-color: #ddd;
+  color: #ddd;
+}
+
+.u-slider{position:relative;display:inline-block;background-color:#ddd;border-radius:3px}
+.u-slider .value{position:absolute;background-color:#2e8ece;border-radius:3px}
+.u-slider .handle{position:absolute;width:16px;height:16px}
+.u-slider .handle:after{ 
+  position:relative;
+  display:block;content:""; 
+  cursor: pointer;}
+.u-slider-x .handle:after {
+  width:18px;
+  height:18px;
+  background-color:#fff;
+  border:2px solid #2e8ece;
+  border-radius:50%;
+}
+.u-slider-x{height:3px}
+.u-slider-x .handle{height:100%}
+.u-slider-x .handle:after{top:-8px;left:-12px}
+.u-slider-x .value{top:0;height:100%}
+
+
+select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  max-width: 100%;
+  line-height: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  outline: 0;
+  padding: 0 40px 0 10px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: url(down.png);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  } 
+
+

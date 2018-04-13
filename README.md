@@ -1,3 +1,9 @@
+## Online car loan calculation
+
+On-line calculator using for sliders this solution https://www.npmjs.com/package/react-input-slider. To obtain vehicle data and send results to the server, use https://www.npmjs.com/package/axios
+
+Demo: http://idls.su/react/calc/index.html<br>q
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

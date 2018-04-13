@@ -2,7 +2,9 @@
 
 On-line calculator using for sliders this solution https://www.npmjs.com/package/react-input-slider. To obtain vehicle data and send results to the server, use https://www.npmjs.com/package/axios
 
-Demo: http://idls.su/react/calc/index.html<br>q
+Demo: http://idls.su/react/calc/index.html<br>
+
+## How it use
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
